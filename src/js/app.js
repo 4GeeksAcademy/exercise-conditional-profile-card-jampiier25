@@ -41,16 +41,16 @@ function render(variables = {}) {
   }</h3>
           <ul class=${variables.socialMediaPosition}>
             <li><a href="https://x.com/${
-              variables.twitter ? variables.twitter : "4geeksacademy"
+              variables.twitter ? variables.twitter : ""
             }" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
             <li><a href="https://github.com/${
-              variables.github ? variables.github : "4geeksacademy"
+              variables.github ? variables.github : ""
             }" target="_blank"<i class="fab fa-github"></i></a></li>
             <li><a href="https://linkedin.com/school/4geeksacademy${
-              variables.linkedin ? variables.linkedin : "school/4geeksacademy"
+              variables.linkedin ? variables.linkedin : ""
             }" target="_blank"><i class="fab fa-linkedin"></i></a></li>
             <li><a href="https://www.instagram.com/${
-              variables.instagram ? variables.instagram : "4geeksacademy"
+              variables.instagram ? variables.instagram : ""
             }" target="_blank"><i class="fab fa-instagram"></i></a></li>
           </ul>
         </div>
@@ -70,7 +70,7 @@ window.onload = function() {
     // this is the url for the profile avatar
     avatarURL: "https://i.imgur.com/uuha5NQ.jpeg",
     // social media bar position (left or right)
-    socialMediaPosition: "left",
+    socialMediaPosition: "position-Right",
     // social media usernames
     twitter: null,
     github: null,

@@ -84,7 +84,7 @@
 .widget ul li a {
   display: block;
   padding: 5px 6px;
-  color: #fff;
+  color: #080707;
   cursor: pointer;
   text-align: center;
   border-bottom: 1px solid #2cd5ca;
@@ -94,7 +94,7 @@
   background-color: #2cd5ca;
 }
 .widget ul li:first-child > a {
-  border-radius: 0 3px 0 0;
+  border-radius: 10 3px 0 0;
 }
 .widget ul li:last-child > a {
   border: none;
